@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/conventional-changelog/conventional-changelog/compare/git-raw-commits-v3.0.0...git-raw-commits-v3.0.1) (2023-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency dargs to v8 ([#1028](https://github.com/conventional-changelog/conventional-changelog/issues/1028)) ([1dbcc99](https://github.com/conventional-changelog/conventional-changelog/commit/1dbcc993ba0352b140fcf7074c1ee4078298ea5f))
+* **deps:** update dependency split2 to v4 ([#1032](https://github.com/conventional-changelog/conventional-changelog/issues/1032)) ([d16ccc5](https://github.com/conventional-changelog/conventional-changelog/commit/d16ccc5df75f2c728417d20324b6eb6e746633ab))
+* fix semver vulnerability ([#1071](https://github.com/conventional-changelog/conventional-changelog/issues/1071)) ([3f5c99d](https://github.com/conventional-changelog/conventional-changelog/commit/3f5c99d503ea1bf01df679f4180c39516e190b21)), closes [#1019](https://github.com/conventional-changelog/conventional-changelog/issues/1019)
+
 ## [3.0.0](https://github.com/conventional-changelog/conventional-changelog/compare/git-raw-commits-v2.0.11...git-raw-commits-v3.0.0) (2023-06-06)
 
 
