@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.0](https://github.com/conventional-changelog/conventional-changelog/compare/conventional-changelog-writer-v6.0.1...conventional-changelog-writer-v7.0.0) (2023-08-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* Now all presets are exports preset config factory function. conventional-changelog-preset-loader now exports new loadPreset and createPresetLoader functions. If you are using presets indirectly, using preset name, no any changes in configuration needed, just upgrade packages to latest versions.
+
+### Features
+
+* unified presets interface ([#1045](https://github.com/conventional-changelog/conventional-changelog/issues/1045)) ([8d0ffbe](https://github.com/conventional-changelog/conventional-changelog/commit/8d0ffbe6c59b861b560cea0e3594c7b32e978cc3))
+* use Intl.DateTimeFormat instead of dateformat ([#1075](https://github.com/conventional-changelog/conventional-changelog/issues/1075)) ([77c41e9](https://github.com/conventional-changelog/conventional-changelog/commit/77c41e93fe66c2287aad2c266dda91ebf978882a))
+
+
+### Bug Fixes
+
+* fix semver vulnerability ([#1071](https://github.com/conventional-changelog/conventional-changelog/issues/1071)) ([3f5c99d](https://github.com/conventional-changelog/conventional-changelog/commit/3f5c99d503ea1bf01df679f4180c39516e190b21)), closes [#1019](https://github.com/conventional-changelog/conventional-changelog/issues/1019)
+
 ## [6.0.1](https://github.com/conventional-changelog/conventional-changelog/compare/conventional-changelog-writer-v6.0.0...conventional-changelog-writer-v6.0.1) (2023-07-09)
 
 
